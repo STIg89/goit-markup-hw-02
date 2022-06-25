@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+:root {
+    --primaryColor: #212121;
+    --secondaryColor: #757575;
+    --accentColor: #2196F3;
+    --bgW: #FFFFFF;
+    --bgG: #2F303A;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+/* HEADER  */
+
+.navigation {}
+
+.logo-black {
+    font-family: 'Raleway';
+    font-size: 26px;
+    color: var(--primaryColor);
+}
+.logo-black span {
+    color: var(--accentColor);
+}
+
+.navigation-list {}
+
+.navigation-item {}
+
+.navigation-link {}
+
+.mail {}
+
+.tel {}
+
+/* FOOTER  */
+
+.logo-white {
+    font-family: 'Raleway';
+    font-size: 26px;
+    color: var(--bgW);
+}
+.logo-white span {
+    color: var(--accentColor);
+}
+
+.link {}
+
+/* INDEX */
+
+.effective {}
+
+.effective-title {}
+
+.effective-btn {}
+
+.benefits {}
+
+.benefits-title {}
+
+.benefits-columns {}
+
+.benefits-article {}
+
+.whatdoing {}
+
+.whatdoing-title {}
+
+.whatdoing-coding {}
+
+.adaptive {}
+
+.design {}
+
+.team {}
+
+.team-title {}
+
+.team-cards {}
+
+.team-developer {}
+
+/* PORFOLIO */
+
+.filter {}
+
+.filter-list {}
+
+.filter-btn {}
+
+.cards {}
+
+.cards-card {}
+
+.cards-link {}
+
+.cards-image {}
+
+.cards-title {}
+
+.cards-text {}
