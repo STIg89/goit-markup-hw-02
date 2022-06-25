@@ -222,12 +222,12 @@
 
 .whatdoing-title,
 .team-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.5;
-text-align: center;
-color: var(--primaryColor);
-margin: 0 auto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--primaryColor);
+    margin: 0 auto;
 }
 
 .whatdoing-images,
