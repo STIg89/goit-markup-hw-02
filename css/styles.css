@@ -9,20 +9,15 @@
     --logoBlack: #000000;
 }
 
-.body {
+body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
+    color: var(--primaryColor);
     }
-
-.btn,
-.list,
-.link,
-.title {
-    font-family: 'Roboto', sans-serif;
-}
 
 .btn {
     cursor: pointer;
+    font-family: inherit;
 }
 
 .list {
@@ -32,6 +27,7 @@
 .link {
     text-decoration: none;
     font-style: normal;
+    color: inherit;
 }
 
 .link:hover,
@@ -58,10 +54,6 @@
 .logo-black:hover,
 .logo-black:focus {
     color: var(--logoBlack);
-}
-
-.navigation-link {
-    color: var(--primaryColor);
 }
 
 .mail,
@@ -155,7 +147,6 @@
     font-size: 14px;
     line-height: 1.2;
     text-transform: uppercase;
-    color: var(--primaryColor);
 }
 .benefits-article p {
     font-size: 14px;
@@ -169,7 +160,6 @@
     font-size: 36px;
     line-height: 1.5;
     text-align: center;
-    color: var(--primaryColor);
 }
 
 .team {
@@ -189,7 +179,6 @@
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
-    color: var(--primaryColor);
     }
 
 .team-developer p {
@@ -240,7 +229,6 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--primaryColor);
 }
 
 .cards-text {
