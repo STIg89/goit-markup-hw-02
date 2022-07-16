@@ -77,6 +77,7 @@ body {
 }
 
 .address {
+    font-size: 14px;
     line-height: 1.71;
     color: var(--bgW);
 }
@@ -85,6 +86,7 @@ body {
 .tel-footer {
     line-height: 1.71;
     color: var(--secondaryColor);
+    font-size: 14px;
 }
 
 .logo-white {
@@ -120,7 +122,6 @@ body {
 
 .effective-btn {
     font-weight: 700;
-    font-size: 16px;
     line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
@@ -191,7 +192,6 @@ body {
     }
 
 .team-developer p {
-    font-size: 16px;
     line-height: 1.2;
     text-align: center;
     color: var(--secondaryColor);
@@ -217,7 +217,6 @@ body {
     border-radius: 4px;
     border: none;
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.62;
 }
 
@@ -241,7 +240,6 @@ body {
 }
 
 .cards-text {
-    font-size: 16px;
     line-height: 1.88;
     color: var(--secondaryColor);
 }
