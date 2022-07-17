@@ -39,6 +39,10 @@ body {
 
 /* HEADER  */
 
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .navigation {
     font-weight: 500;
     font-size: 16px;
@@ -46,7 +50,7 @@ body {
 }
 
 .logo-black {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
     color: var(--logoBlack);
 }
@@ -90,7 +94,7 @@ body {
 }
 
 .logo-white {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
     color: var(--bgW);
 }
@@ -128,7 +132,7 @@ body {
     color: var(--bgW);
     background: var(--accentColor);
     border: none;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 
@@ -136,7 +140,6 @@ body {
 .effective-btn:hover {
     background: #188CE8;
     color: var(--bgW);
-    box-shadow: none;
 }
 
 .benefits-title {
@@ -220,7 +223,8 @@ body {
     line-height: 1.62;
 }
 
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
     background: var(--accentColor);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: var(--bgW);
@@ -237,6 +241,11 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+}
+
+.cards-link:hover,
+.cards-link:focus {
+    color: inherit;
 }
 
 .cards-text {
